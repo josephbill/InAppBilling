@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">androidInAppEvans</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="license_key">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkojdSy1npT+sT4ES3sCPdHnMjp+T7EzzNUy4g1yniBE6JK3FhPaWz5WleXxxw3GGCXUX+4IJRleTqUIHpnAzK4QQ8Mp3sLxuQgyaVMIA22VqQJj2O/hXXC/gjyQXwIPRHUhxgN3Q4lfp/llOBhoPtZIMINlf4WUS6KH++jULV5wme4OfEfauA7wC3cYckJXD8CEz5tbWA56qwzcLu7lac5/KRBx6OKjOInLiGGHzHTy5WZljOgoLPw5M0hmR0w+tJuIQpiJ2u1mopf9A5FOQnwZsAqdXxPr1G10JO/3YtIccHaEmcSwSNM4rTLrbFFsf2FL7frNZrP5eUstFEgWmSQIDAQAB</string>
+</resources>
