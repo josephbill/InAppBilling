@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity implements BillingProcessor.
             public void onClick(View v) {
                 //monthly subscription
                 bp.purchase(MainActivity.this,"mwezi1");
-                //dialog.dismiss();
+                dialog.dismiss();
             }
         });
         year.setOnClickListener(new View.OnClickListener() {
@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity implements BillingProcessor.
             public void onClick(View v) {
                 //yearly subscription
                 bp.purchase(MainActivity.this,"mwaka1");
-                //dialog.dismiss();
+                dialog.dismiss();
             }
         });
 //        alertDialogBuilder.setView(viewPopup);

@@ -6,8 +6,8 @@ android {
         applicationId "com.demoscad.androidinappevans"
         minSdkVersion 23
         targetSdkVersion 28
-        versionCode 4
-        versionName "4.0"
+        versionCode 5
+        versionName "4.1"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
