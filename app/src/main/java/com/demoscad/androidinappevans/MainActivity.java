@@ -1,10 +1,7 @@
 package com.demoscad.androidinappevans;
 
 import android.app.AlertDialog;
-import android.app.Dialog;
 import android.content.Intent;
-import android.graphics.Color;
-import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -13,7 +10,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
-import android.widget.RadioButton;
 import android.widget.Toast;
 
 import com.anjlab.android.iab.v3.BillingProcessor;
@@ -34,7 +30,7 @@ public class MainActivity extends AppCompatActivity implements BillingProcessor.
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //para ver de manera diferente, primero debemos pensar diferente
+             //select subscription function here when the button is clicked
                 selectSubscription();
 
             }
@@ -76,7 +72,7 @@ public class MainActivity extends AppCompatActivity implements BillingProcessor.
 
     @Override
     public void onProductPurchased(@NonNull String productId, @Nullable TransactionDetails details) {
-        Toast.makeText(this, "Youve purchased something", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "You have purchased something", Toast.LENGTH_SHORT).show();
     }
 
     @Override

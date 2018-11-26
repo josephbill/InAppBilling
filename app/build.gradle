@@ -30,6 +30,6 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-    //library
+    // googleb pay library
     implementation 'com.anjlab.android.iab.v3:library:1.0.44'
 }

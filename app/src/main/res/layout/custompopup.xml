@@ -13,7 +13,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="8dp"
-        android:background="@color/colorPrimary"
+         android:background="@color/colorPrimary"
         android:padding="10dp"
         android:text="Monthly Subscription"
         android:textColor="@android:color/white"
